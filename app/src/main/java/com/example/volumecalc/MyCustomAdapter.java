@@ -35,6 +35,7 @@ public class MyCustomAdapter extends ArrayAdapter<Model> {
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         Model m = getItem(position);
         Viewholder holder;
+        //Hi
 
 
         if(convertView==null){
@@ -58,6 +59,7 @@ public class MyCustomAdapter extends ArrayAdapter<Model> {
         holder.ShapeImg.setImageResource(m.getShapeImg());  // Images are stored in integers in android.
         holder.shapeName.setText(m.getShapeName());
 
+        //hello
          return convertView;
 
     }
